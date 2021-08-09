@@ -5,6 +5,16 @@ public class RH {
 	private String email;
 	private double salario;
 	
+	
+	public RH(int numeroFuncional, String nome, String email, double salario) {
+		this.numeroFuncional = numeroFuncional;
+		this.nome = nome;
+		this.email = email;
+		this.salario = salario;
+	}
+	
+	
+	
 	public int getNumeroFuncional() {
 		return numeroFuncional;
 	}
